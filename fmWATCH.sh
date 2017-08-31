@@ -5,7 +5,7 @@
 # Date:      1/09/2017                                                        #
 # Version:   0.05                                                              #
 # Purpose:   Scripting for monitoring and resolving false mounts               #
-#            Should be triggered by LaunchAgent using WatchPaths               #
+#            Should be triggered by LaunchDaemon using WatchPaths               #
 ################################################################################
 
 #---Variables and such---#
@@ -38,9 +38,9 @@ echo "$DateTime     - LoadUser:          $currentUser"
 
 #--Slow down and let things legitimately mount---#
 
-#echo "$DateTime - Pausing for 10 seconds..."
+echo "$DateTime - Pausing for 5 seconds..."
 
-#sleep 10
+sleep 5
 
 echo "$DateTime - Building list of false mounts..."
 
