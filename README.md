@@ -2,4 +2,6 @@
 
 In development scripting for monitoring and resolving false mounts
 
-Do not use without permission
+Use at your own risk
+
+See release page latest installer
