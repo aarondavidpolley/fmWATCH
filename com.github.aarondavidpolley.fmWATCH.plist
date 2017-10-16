@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-       <string>com.max.fmWATCH</string>
+       <string>com.github.aarondavidpolley.fmWATCH</string>
     <key>ProgramArguments</key>
     <array>
 	   <string>/Library/Scripts/fmWATCH.sh</string>
