@@ -2,14 +2,14 @@
 
 ################################################################################
 # Author:    Aaron Polley                                                      #
-# Date:      17/10/2017                                                         #
-# Version:   0.07                                                              #
+# Date:      25/10/2017                                                         #
+# Version:   0.1                                                              #
 # Purpose:   Scripting for monitoring and resolving false mounts               #
 #            Should be triggered by LaunchDaemon using WatchPaths              #
 ################################################################################
 
 #---Variables and such---#
-script_version="0.07"
+script_version="0.1"
 user_id=`id -u`
 user_name=`id -un $user_id`
 home_dir=`dscl . read /Users/"$user_name" NFSHomeDirectory | awk '{print $2}'`
