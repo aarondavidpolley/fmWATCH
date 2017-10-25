@@ -6,9 +6,9 @@ Currently, targets and addresses the empty mount points created in /Volumes by a
 
 To use/test, install the latest release at https://github.com/aarondavidpolley/fmWATCH/releases
 
-Use at your own risk
+Use at your own risk.
 
-See release page latest installer
+Note: the core script uses a non-destructive rmdir command that only removes empty directories in /Volumes, rather than an all destructive rm -rf style.
 
 This is available under the MIT License:
 https://github.com/aarondavidpolley/fmWATCH/blob/master/LICENSE
