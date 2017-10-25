@@ -1,6 +1,8 @@
 # fmWATCH
 
-In development scripting for monitoring and resolving false mounts
+In development scripting for monitoring and resolving false mount points
+
+A false mount “Watchdog”
 
 Currently, targets and addresses the empty mount points created in /Volumes by a bug in macOS 10.12 Sierra and above. When a network drive is already mounted, further attempts to mount via Go > Connect To Server or persistent scripting cause the creation of the empty ditectories
 
