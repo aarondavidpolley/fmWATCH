@@ -2,13 +2,13 @@
 
 ################################################################################
 # Author:    Aaron Polley                                                      #
-# Date:      25/10/2017                                                         #
-# Version:   0.1                                                              #
+# Date:      25/11/2017                                                         #
+# Version:   1.0                                                              #
 # Purpose:   Post install script for fmWATCH                                   #
 ################################################################################
 
 #---Variables and such---#
-script_version="0.1"
+script_version="1.0"
 user_id=`id -u`
 user_name=`id -un $user_id`
 home_dir=`dscl . read /Users/"$user_name" NFSHomeDirectory | awk '{print $2}'`
@@ -39,7 +39,7 @@ echo "$DateTime - Loading scripts into launchd"
 
 #Check if v0.06 LaunchDaemon exists#
 
-if [ -e "$OldVersion" ]; then 
+if [ -e "$OldVersion" ]; then
 
 #Unload and remove old Daemon#
 
